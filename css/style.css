@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+body {
+	padding: 30px;
+	font-family: Arial;
+	background: #ddd;
+}
+
+#root {
+	padding: 30px;
+	background: #fff;
+	border-radius: 5px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+#root #app-form #screenBlock {
+	display: flex;
+	margin-bottom: 24px;
+}
+
+#root #app-form #screenBlock input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px 0px 0px 5px;
+	width: 100%;
+}
+
+#root #app-form #screenBlock #screenAddBtn {
+	background: #1a90d2;
+	color: #fff;
+	border: none;
+	padding: 0px 8px;
+	cursor: pointer;
+	border-radius: 0px 5px 5px 0px;
+}
+
+#root #app-form #listsBlock .listsBlock__item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 12px;
+}
+
+#root #app-form #listsBlock .listsBlock__item .listsBlock__item__content span {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#root #app-form #listsBlock .listsBlock__item .listsBlock__item__content input {
+	border: 1px solid transparent;
+	padding: 7px 9px;
+	border-radius: 5px;
+}
+
+#root #app-form #listsBlock .listsBlock__item .listsBlock__item__content input.edit {
+	border-color: #ccc;
+}
+
+#root #app-form #listsBlock .listsBlock__item .buttons button {
+	padding: 8px 12px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	transition: background 0.3s;
+}
+
+#root #app-form #listsBlock .listsBlock__item .buttons [data-rm] {
+	background: #f00900;
+}
+
+#root #app-form #listsBlock .listsBlock__item .buttons [data-ed] {
+	background: #ffc000;
+}
+
+#root #app-form #listsBlock .listsBlock__item .buttons [data-sv] {
+	display: none;
+	background: #d900ff;
+}
+
+#root #app-form #listsBlock .listsBlock__item .buttons [data-fn] {
+	background: #00b14a;
+}
+
+#root #app-form #listsBlock .listsBlock__item .buttons [data-rm]:hover {
+	background: #d41507;
+}
+
+#root #app-form #listsBlock .listsBlock__item .buttons [data-ed]:hover {
+	background: #efb403;
+}
+
+#root #app-form #listsBlock .listsBlock__item .buttons [data-sv]:hover {
+	background: #c311e2;
+}
+
+
+h1 {
+	text-align: center;
+	margin-bottom: 12px;
+	color: #555;
+	letter-spacing: 1.5px;	
+}
+
+p {
+	margin-bottom: 12px;
+	text-align: center;
+	color: #566
+}
